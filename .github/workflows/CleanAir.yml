@@ -18,7 +18,7 @@ jobs:
           pip install ruff
           ruff output-format=github .
         continue-on-error: true
-      - name: Unit test with Tox
+      - name: Unit test with pytest
         run: |
-          pip install tox
-          tox -e py
+          pip install -U pytest
+          pytest
