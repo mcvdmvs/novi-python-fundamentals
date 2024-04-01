@@ -5,6 +5,6 @@ from clean_air.clean_air import CleanAir
 def my_clean_air():
   return CleanAir()
 
-def test_C1(my_clean_air):
-  assert my_clean_air.C1 == 10
+def test_CO2_weight(my_clean_air):
+  assert my_clean_air.CO2 == 1
 
