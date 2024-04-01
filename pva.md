@@ -1,7 +1,8 @@
 # Interpretatie van de casus
 ## activiteiten & planning
 1. basiscode neerzetten in verschillende modules
-1. unit-testen schrijven
+1. unit-testen schrijven met pytest
+1. gebruik github workflow en yaml om ci/cd pipeline te maken met automatisch testen
 1. startbaar maken vanaf de commandline
 1. menu tonen met de volgende opties: help, inlezen meetgegevens, tonen analyse, exit
 1. inlezen permanente gegevens na menukeuze inlezen meetgegevens
