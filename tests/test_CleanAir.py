@@ -6,5 +6,5 @@ def my_clean_air():
   return CleanAir()
 
 def test_C1():
-  assert my_clean_air.C1 == 10
+  assert my_clean_air().C1 == 10
 
