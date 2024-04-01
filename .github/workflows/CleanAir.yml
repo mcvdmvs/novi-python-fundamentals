@@ -16,9 +16,9 @@ jobs:
       - name: Lint with Ruff
         run: |
           pip install ruff
-          ruff output-format=github check .
+          ruff check . output-format=github
         continue-on-error: true
       - name: Unit test with pytest
         run: |
           pip install -U pytest
-          pytest ./src
+          pytest
