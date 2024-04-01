@@ -4,16 +4,16 @@ import Inspector
 
 def CleanAir():
   # weight
-  self.C1 = 1
-  self.C2 = 2
-  self.C3 = 4
-  self.C4 = 7
+  C1 = 1
+  C2 = 2
+  C3 = 4
+  C4 = 7
 
   # fines
-  self.F1 = 3
-  self.F2 = 10
-  self.F3 = 5
-  self.F4 = 28
+  F1 = 3
+  F2 = 10
+  F3 = 5
+  F4 = 28
   
   def __init__(self, name):
     self.name = name
