@@ -2,7 +2,7 @@ import sys
 import numpy
 import Inspector
 
-def CleanAir():
+class CleanAir:
   # weight
   C1 = 1
   C2 = 2
