@@ -4,10 +4,10 @@ from .inspector import Inspector
 
 class CleanAir:
   # weight
-  C1 = 1
-  C2 = 2
-  C3 = 4
-  C4 = 7
+  CO2 = 1
+  CH4 = 2
+  NO2 = 4
+  NH3 = 7
 
   # fines
   F1 = 3
