@@ -1,6 +1,6 @@
 import sys
 import numpy
-import Inspector
+from inspector import Inspector
 
 class CleanAir:
   # weight
