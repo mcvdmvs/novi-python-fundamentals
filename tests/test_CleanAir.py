@@ -1,10 +1,10 @@
 import pytest
 import CleanAir
 
-class test_CleanAir():
-  def __init__(self):
-    self.CleanAir = CleanAir()
-  
-  def test_C1():
-    assert self.CleanAir.C1 == 10
-  
+@pytest.fixture
+def my_clean_air():
+  return CleanAir = CleanAir()
+
+def test_C1():
+  assert my_clean_air.C1 == 10
+
