@@ -15,3 +15,6 @@
 # Omschrijving van de aanpak
 Code wordt geschreven in Python 3.9. Er wordt gebruik gemaakt van unit-testen om te controleren of de applicatiecode klopt. Het project wordt opgeslagen in Github en kan worden gedownload. De applicatie werkt vanaf de commandline. Er wordt gebruik gemaakt van CamelCase stijl bij publieke methoden en van Snake Case bij private methoden. Constanten worden altijd in hoofdletters geschreven.
 In activiteiten & planning staat de volgordelijkheid van het maken van het programma.
+
+# Verslag
+Opzetten werkomgeving met pytest en github worksflow heeft meer tijd nodig dan verwacht. Vooral het zetten van de juist paden is lastig.
