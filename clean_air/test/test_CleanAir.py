@@ -2,7 +2,7 @@ import pytest
 from clean_air import CleanAir
 
 class test_CleanAir():
-  def __init(self):
+  def __init__(self):
     self.CleanAir = CleanAir()
   
   def test_C1():
