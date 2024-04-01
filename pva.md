@@ -18,3 +18,8 @@ In activiteiten & planning staat de volgordelijkheid van het maken van het progr
 
 # Verslag
 Opzetten werkomgeving met pytest en github worksflow heeft meer tijd nodig dan verwacht. Vooral het zetten van de juist paden is lastig.
+Geleerd: 
+- paden corrigeren voor testen
+- package-, module- en classnamen irt importeren
+- github actions en workflow
+- console menu
