@@ -15,9 +15,9 @@ class CleanAir:
   F3 = 5
   F4 = 28
   
-  def __init__(self, name):
-    self.name = name
-
+  def __init__(self):
+    void
+    
   def get_permanent_data(self, filename):
     self.permanent_data = filename
   
