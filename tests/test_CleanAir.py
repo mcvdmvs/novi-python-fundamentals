@@ -1,5 +1,5 @@
 import pytest
-import CleanAir
+from src.clean_air import * 
 
 @pytest.fixture
 def my_clean_air():
