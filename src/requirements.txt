@@ -1,1 +1,2 @@
 numpy
+simple_term_menu
