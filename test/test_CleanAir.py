@@ -1,5 +1,5 @@
 import pytest
-import ..clean_air/CleanAir
+from clean_air import CleanAir
 
 class test_CleanAir():
   self.CleanAir = CleanAir()
