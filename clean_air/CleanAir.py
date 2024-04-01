@@ -1,3 +1,5 @@
+import sys
+import numpy
 import .Inspector
 
 def CleanAir():
