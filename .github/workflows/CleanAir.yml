@@ -19,7 +19,6 @@ jobs:
           ruff output-format=github check .
         continue-on-error: true
       - name: Unit test with pytest
-        working-directory: ./src
         run: |
           pip install -U pytest
-          pytest
+          pytest ./src
