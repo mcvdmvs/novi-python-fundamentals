@@ -1,12 +1,17 @@
-from simple_term_menu import TerminalMenu
+from consolemenu import *
+from consolemenu.items import *
+
+def read_measuring_data():
+    pu = PromptUtils(Screen())
+    result = pu.input("Vul bestandsnaam in")
+    pu.println("\nBestandsnaam:", result.input_string, "\n")
+    pu.enter_to_continue()
 
 
 def main():
-    options = ['1', '2', '3']
-    terminal_menu = TerminalMenu(options)
-    menu_entry_index = terminal_menu.show()
-    print(f"You have selected {options[menu_entry_index]}!")
-
+    menu = ConsoleMenu("Clean Air")
+    menu.append_item(FunctionItem("Lees meetgegevens in", read_measuring_data))
+    menu.show()
 
 if __name__ == '__main__':
     main()
