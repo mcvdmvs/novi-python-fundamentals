@@ -1,4 +1,4 @@
-class Inspector():
+class Inspector:
     code = ''
     name = ''
     location = ''
