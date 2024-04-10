@@ -1,9 +1,8 @@
-class Inspector:
-    code = ''
-    name = ''
-    location = ''
+from dataclasses import dataclass
 
-    def __init__(self, code, name, location):
-        self.code = code
-        self.name = name
-        self.location = location
+
+@dataclass
+class Inspector:
+    code: str
+    name: str
+    location: str
